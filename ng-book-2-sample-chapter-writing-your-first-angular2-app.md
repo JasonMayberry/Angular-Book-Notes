@@ -1,6 +1,5 @@
 
 
-
 To create a new component using Angular CLI, we'll use the generate command.
 To generate the hello-world component, we need to run the following command:
 ###$ ng generate component hello-world
@@ -16,13 +15,13 @@ To generate the hello-world component, we need to run the following command:
 2.   // ...
 3. })
 
-When we add an attribute in brackets like [foo] we٧re saying we want to pass a value to the input
+When we add an attribute in brackets like [foo] we're saying we want to pass a value to the input
 named foo on that component.
-1. <ul>
-2.   <li *ngFor="let name of names">
-3.     <app-user-item [name]="name"></app-user-item>
-4.   </li>
-5. </ul>
+`1. <ul>`
+`2.   <li *ngFor="let name of names">`
+`3.     <app-user-item [name]="name"></app-user-item>`
+`4.   </li>`
+`5. </ul>`
 
 Notice that in the input tags we used the # (hash) to tell Angular to assign those tags to a local
 variable. By adding the #newtitle and #newlink to the appropriate <input /> elements, we can
@@ -56,5 +55,4 @@ Remember, we can pass a variable in an element by surrounding it in square brack
 3. Define your models
 4. Display your models
 5. Add interaction
-
 
