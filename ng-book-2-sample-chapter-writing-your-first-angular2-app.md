@@ -1,8 +1,8 @@
 
 
-To create a new component using Angular CLI, we'll use the generate command.
-To generate the hello-world component, we need to run the following command:
-###$ ng generate component hello-world
+To create a new component using Angular CLI, we'll use the generate command.  
+To generate the hello-world component, we need to run the following command:  
+###$ ng generate component hello-world  
 
 **So how do we actually define a new Component?**
 
@@ -25,7 +25,7 @@ named foo on that component.
 
 Notice that in the input tags we used the # (hash) to tell Angular to assign those tags to a local
 variable. By adding the #newtitle and #newlink to the appropriate <input /> elements, we can
-pass them as variables into the addArticle() function on the button!
+pass them as variables into the addArticle() function on the button!  
 
 Notice in our first input tag we have the following: 
 1. <input name="title" #newtitle>
