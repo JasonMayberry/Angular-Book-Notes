@@ -16,7 +16,7 @@ To generate the hello-world component, we need to run the following command:
 3. })
 
 When we add an attribute in brackets like [foo] we're saying we want to pass a value to the input
-named foo on that component.
+named foo on that component.  
 `1. <ul>`  
 `2.   <li *ngFor="let name of names">`  
 `3.     <app-user-item [name]="name"></app-user-item>`  
