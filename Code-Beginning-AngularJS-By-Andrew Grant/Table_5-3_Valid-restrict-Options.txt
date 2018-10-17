@@ -1,0 +1,10 @@
+
+Table 5-3. Valid restrict Options
+
+Option    |    Example
+
+A         |    <span color-list ></span>
+E         |    <color-list></color-list>
+C         |    <span class="color-list"></span>
+M         |    <!-- directive: color-list -->
+

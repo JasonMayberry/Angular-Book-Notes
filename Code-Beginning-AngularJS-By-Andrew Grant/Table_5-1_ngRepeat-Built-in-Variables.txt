@@ -1,0 +1,11 @@
+Table 5-1. ngRepeat Built-in Variables
+
+
+Variable Name |  Type     | Description
+
+$index        |  Number   |  Iterator offset of the repeated element (0..length-1)
+$first        |  Boolean  |  True, if the repeated element is first in the iterator
+$middle       |  Boolean  |  True, if the repeated element is between first and last in the iterator 
+$last         |  Boolean  |  True, if the repeated element is last in the iterator
+$even         |  Boolean  |  True, if the iterator position $index is even (otherwise, false) 
+$odd          |  Boolean  |  True, if the iterator position $index is odd (otherwise, false)

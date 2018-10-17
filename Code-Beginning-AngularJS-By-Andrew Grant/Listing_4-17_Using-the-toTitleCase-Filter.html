@@ -1,0 +1,16 @@
+
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Filter Demo</title>
+	<script src="js/angular.min.js"></script>
+	<script src="js/myModules/myAppModule.js"></script>
+</head>
+<body ng-app="myAppModule" ng-controller="MyFilterDemoCtrl">
+	<!-- Display customer name in title case -->
+	<p>First Name: {{data.firstName | toTitleCase}}</p>
+	<p>Surname: {{data.surname | toTitleCase}}</p>
+	<p>Full Name: {{ data.firstName + data.surname | toTitleCase}}</p>
+</body>
+</html>
+

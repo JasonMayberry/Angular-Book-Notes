@@ -1,0 +1,26 @@
+
+<select name="channels" ng-model="person.channels" ng-options="obj.value as obj.label for obj in person.channels">
+	<option value="">Where did you hear about us?</option>
+</select>
+<!-- 
+The ngOptions directive expects a comprehension expression. 
+This expression can seem a little intimidating when you first 
+encounter it, but we can break it down. It is essentially a 
+query that we use to tell AngularJS how to map our model property, 
+the person.channels array, in this case, onto a set of HTML options. 
+This array contains a set of objects, and AngularJS would like to 
+know which properties of this set should become the option element’s 
+value and which should become the content visible to our end user.
+
+Here is the expression again:
+obj.value as obj.label for obj in person.channels
+
+In plain English, this would read something like the following:
+
+Use the value property on the option elements value attribute, 
+and use the label property as the text displayed within the option element. 
+Oh, and by the way, I am referring to the objects 
+contained within theperson.channels array.
+ -->
+
+ 

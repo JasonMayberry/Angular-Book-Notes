@@ -1,0 +1,38 @@
+
+<!DOCTYPE html>
+<html>
+
+  <head>
+    <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.2.32/angular.min.js"></script>
+    <script>
+		angular.module("myapp", [])
+		.controller("MyController", function ($scope) {
+			var person = {
+					firstName:"Jimmy",
+					age: 21,
+					address:{
+					street: '16 Somewhere Drive', 
+					suburb: 'Port Kennedy', 
+					state: 'WesternAustralia'
+					}
+			}
+			$scope.person = person;
+		});
+    </script>
+  </head>
+
+  <body>
+    <div ng-app="myapp">
+		<div ng-controller="MyController">
+			<form name="theForm">
+				<input type="text" name="firstName" ng-model="person.firstName"/><br/>
+				<input type="text" name="firstName" ng-model="person.address.street"/>
+			</form>
+			<p>First name is: {{person.firstName}} <br/> 
+			Street name is: {{person.address.street}} </p>
+		</div>
+	</div>
+  </body>
+
+</html>
+

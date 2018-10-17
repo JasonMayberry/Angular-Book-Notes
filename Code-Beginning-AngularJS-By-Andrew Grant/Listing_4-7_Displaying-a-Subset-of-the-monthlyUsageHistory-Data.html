@@ -1,0 +1,8 @@
+
+<body ng-app ng-controller="MyFilterDemoCtrl">
+	<h2>Gigabytes used over the last 3 months</h2>
+	<ul>
+		<li ng-repeat="gigabytes in data.monthlyUsageHistory | limitTo:5"> {{ gigabytes | number:2 }}</li>
+	</ul>
+</body>
+

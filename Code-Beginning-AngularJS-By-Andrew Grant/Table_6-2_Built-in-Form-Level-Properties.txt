@@ -1,0 +1,8 @@
+Table 6-2. Built-in Form-Level Properties
+
+Property Name  |  Description
+               |
+$pristine      |  True, if user has not yet interacted with the form
+$dirty         |  True, if user has already interacted with the form
+$valid         |  True, if all of the containing forms and form elements are valid 
+$invalid       |  True, if at least one containing form element or form is invalid

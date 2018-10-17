@@ -1,0 +1,14 @@
+
+Table 4-2. Predefined Date Paramters
+
+|  Parameter     |  Description
+
+|  medium        |  equivalent to 'MMM d, y h:mm:ss a' for en_US locale (for example, Sep 3, 2010 12:05:08 PM)
+|  short         |  equivalent to 'M/d/yy h:mm a' for en_US locale (for example, 9/3/10 12:05PM)
+|  fullDate      |  equivalent to 'EEEE, MMMM d, y' for en_US locale (for example, Friday, September 3, 2010)
+|  longDate      |  equivalent to 'MMMM d, y' for en_US locale (for example, September 3, 2010)
+|  mediumDate    |  equivalent to 'MMM d, y' for en_US locale (for example, Sep 3, 2010)
+|  shortDate     |  equivalent to 'M/d/yy' for en_US locale (for example, 9/3/10)
+|  mediumTime    |  equivalent to 'h:mm:ss a' for en_US locale (for example, 12:05:08 PM)
+|  shortTime     |  equivalent to 'h:mm a' for en_US locale (for example, 12:05 PM)
+

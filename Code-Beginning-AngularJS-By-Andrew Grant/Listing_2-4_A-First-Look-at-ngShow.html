@@ -1,0 +1,34 @@
+
+<!DOCTYPE html>
+<html ng-app>
+<head>
+	<title>Listing 2-4</title>
+	<script src="js/angular.min.js"></script>
+</head>
+	<body>
+	<p ng-show="true">Paragraph 1, can you see me?</p>
+	<p ng-show="false">Paragraph 2, can you see me?</p>
+	<p ng-show="1 == 1">Paragraph 3, can you see me?</p>
+	<p ng-show="1 == 2">Paragraph 4, can you see me?</p>
+	</body>
+</html>
+
+<!-- 
+Listing 2-4 shows four paragraph elements, each has been “augmented” by an AngularJS directive 
+that goes by the name of ngShow.
+
+What does ngShow do?
+ Much of the answer is in the name.
+  The ngShow directive will show, or hide, the element on which it is declared,
+  based on the expression provided to it. 
+Load up Listing 2-4 in your browser, and you will see that only the first and third paragraphs appear 
+(as confirmed in Figure 2-3). They only appear because, in both cases, their respective expressions 
+evaluate to the Boolean value of true. The second and fourth paragraphs, however, do not appear 
+because their respective ngShow expressions evaluate to the Boolean value of false.
+
+* Tip If an ngShow expression evaluates to false, then a CSS class named .ng-hide is dynamically 
+added to the element, causing it to become hidden. So, the element still exists in the DOM, 
+but it is not displayed.
+ -->
+
+ 

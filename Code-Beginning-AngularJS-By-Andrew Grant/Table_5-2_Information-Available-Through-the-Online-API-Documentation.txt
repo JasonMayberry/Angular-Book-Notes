@@ -1,0 +1,15 @@
+Table 5-2. Information Available Through the Online API Documentation
+
+Directive Name        The directive’s name, for example; ngRepeat
+and Overview
+
+Directive Info        Additional information, such as the priority level, 
+                      which may impact the behavior of the directive
+
+Usage                 This corresponds to our discussion of how a directive can be used. 
+                      For example, some directives can be used only as an attribute.
+
+Arguments             This tells you if the argument(s) should be an Angular JS expression, 
+                      a string, or some other value.
+
+Example               A brief example of the directive in action

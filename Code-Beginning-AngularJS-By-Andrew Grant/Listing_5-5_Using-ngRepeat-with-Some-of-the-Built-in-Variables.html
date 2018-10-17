@@ -1,0 +1,15 @@
+
+<!DOCTYPE html>
+<html ng-app>
+  <head>
+    <title>Listing 5-5</title>
+    <script src="js/angular.min.js"></script>
+  </head>
+  <body>
+	<h2>My Favourite Cities</h2>
+	<div ng-repeat="city in ['Liverpool','Perth','Sydney','Dublin','Paris']">
+	{{$index}}. {{city}}
+	{{$first ? '(This is the first row)' : ''}} {{$last ? '(This is the last row)' : ''}}
+	</div>
+  </body>
+</html>
