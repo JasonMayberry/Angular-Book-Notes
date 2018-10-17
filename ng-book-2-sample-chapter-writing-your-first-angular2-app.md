@@ -17,11 +17,11 @@ To generate the hello-world component, we need to run the following command:
 
 When we add an attribute in brackets like [foo] we're saying we want to pass a value to the input
 named foo on that component.
-`1. <ul>`
-`2.   <li *ngFor="let name of names">`
-`3.     <app-user-item [name]="name"></app-user-item>`
-`4.   </li>`
-`5. </ul>`
+`1. <ul>`  
+`2.   <li *ngFor="let name of names">`  
+`3.     <app-user-item [name]="name"></app-user-item>`  
+`4.   </li>`  
+`5. </ul>`  
 
 Notice that in the input tags we used the # (hash) to tell Angular to assign those tags to a local
 variable. By adding the #newtitle and #newlink to the appropriate <input /> elements, we can
